@@ -3,8 +3,28 @@
 @tailwind utilities;
 
 .btn {
-    @apply font-bold py-2 px-4 rounded;
+  @apply font-bold py-2 px-4 rounded;
 }
 .btn-blue {
-    @apply bg-red-500 hover:bg-blue-700 text-white;
+  @apply bg-red-500 hover:bg-blue-700 text-white;
+}
+
+.navbar-container {
+  @apply container mx-auto max-w-screen-xl;
+}
+
+.navbar {
+  @apply p-2 px-4 md:px-10;
+}
+
+.content-container {
+  @apply container mx-auto max-w-screen-2xl;
+}
+
+.ant-select-focused .ant-select-selector,
+.ant-select-selector:focus,
+.ant-select-selector:active,
+.ant-select-open .ant-select-selector {
+  border-color: #d9d9d9 !important;
+  box-shadow: none !important;
 }
