@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/ywc18-homework/static/css/main.e58eeaaa.chunk.css",
+    "main.js": "/ywc18-homework/static/js/main.cd66426e.chunk.js",
+    "main.js.map": "/ywc18-homework/static/js/main.cd66426e.chunk.js.map",
+    "runtime-main.js": "/ywc18-homework/static/js/runtime-main.1f6cb5d5.js",
+    "runtime-main.js.map": "/ywc18-homework/static/js/runtime-main.1f6cb5d5.js.map",
+    "static/css/2.ea9b1cc9.chunk.css": "/ywc18-homework/static/css/2.ea9b1cc9.chunk.css",
+    "static/js/2.b8ed49ff.chunk.js": "/ywc18-homework/static/js/2.b8ed49ff.chunk.js",
+    "static/js/2.b8ed49ff.chunk.js.map": "/ywc18-homework/static/js/2.b8ed49ff.chunk.js.map",
+    "static/js/3.1579c0b3.chunk.js": "/ywc18-homework/static/js/3.1579c0b3.chunk.js",
+    "static/js/3.1579c0b3.chunk.js.map": "/ywc18-homework/static/js/3.1579c0b3.chunk.js.map",
+    "index.html": "/ywc18-homework/index.html",
+    "static/css/2.ea9b1cc9.chunk.css.map": "/ywc18-homework/static/css/2.ea9b1cc9.chunk.css.map",
+    "static/css/main.e58eeaaa.chunk.css.map": "/ywc18-homework/static/css/main.e58eeaaa.chunk.css.map",
+    "static/js/2.b8ed49ff.chunk.js.LICENSE.txt": "/ywc18-homework/static/js/2.b8ed49ff.chunk.js.LICENSE.txt",
+    "static/media/output.css": "/ywc18-homework/static/media/result-bg.ac869927.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1f6cb5d5.js",
+    "static/css/2.ea9b1cc9.chunk.css",
+    "static/js/2.b8ed49ff.chunk.js",
+    "static/css/main.e58eeaaa.chunk.css",
+    "static/js/main.cd66426e.chunk.js"
+  ]
+}
