@@ -1,5 +1,6 @@
 {
   "name": "ywc18-homework",
+  "homepage": "http://tigerza117.github.io/ywc18-homework",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -27,12 +28,14 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "npm run build:css&&react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "build:css": "postcss src/styles/tailwind.css -o src/styles/output.css",
     "watch:css": "postcss src/styles/tailwind.css -o src/styles/output.css --watch",
-    "tailwind:css": "tailwind build src/styles/tailwind.css -c tailwind.config.js -o src/styles/output.css"
+    "tailwind:css": "tailwind build src/styles/tailwind.css -c tailwind.config.js -o src/styles/output.css",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -53,6 +56,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^3.1.0",
     "stylelint-config-recommended": "^3.0.0"
   }
 }
